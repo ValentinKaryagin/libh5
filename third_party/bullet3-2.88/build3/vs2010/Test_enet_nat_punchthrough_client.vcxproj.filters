@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{3E3DCF13-AD18-6846-8299-3AD4FE03D4A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\enet">
+      <UniqueIdentifier>{FA02EAE0-E87A-4C43-B493-3BAC823D227F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\enet\nat_punchthrough">
+      <UniqueIdentifier>{013BCD62-5702-AC43-B2C3-FEBE6B91A655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\enet\nat_punchthrough\client">
+      <UniqueIdentifier>{721824E5-C1E8-1046-AE21-0E1B0EC54ADC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\enet\nat_punchthrough\client\main.cpp">
+      <Filter>test\enet\nat_punchthrough\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

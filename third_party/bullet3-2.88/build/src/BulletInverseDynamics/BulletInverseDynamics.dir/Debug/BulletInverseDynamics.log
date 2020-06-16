@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Development/Master/highfive/libh5/third_party/bullet3-2.88/src/BulletInverseDynamics/CMakeLists.txt
+  IDMath.cpp
+  MultiBodyTree.cpp
+  MultiBodyTreeInitCache.cpp
+  MultiBodyTreeImpl.cpp
+  Generating Code...
+  BulletInverseDynamics.vcxproj -> D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\build\lib\Debug\BulletInverseDynamics_Debug.lib

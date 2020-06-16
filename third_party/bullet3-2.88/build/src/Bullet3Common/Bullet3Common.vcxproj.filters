@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3AlignedAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3AlignedAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3AlignedObjectArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3CommandLineArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3HashMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3MinMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3PoolAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3QuadWord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Scalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3StackAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3TransformUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\b3Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\shared\b3Float4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\shared\b3Int2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\shared\b3Int4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\shared\b3Mat3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\shared\b3PlatformDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\shared\b3Quat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\Bullet3Common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8C48FEDD-FD27-3883-BD1F-4B25B78CEF1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4D0E477-FB5D-3D80-A755-BFCEB411AF05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

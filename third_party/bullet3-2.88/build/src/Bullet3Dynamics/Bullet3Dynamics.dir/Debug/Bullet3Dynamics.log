@@ -1,0 +1,9 @@
+﻿  Building Custom Rule D:/Development/Master/highfive/libh5/third_party/bullet3-2.88/src/Bullet3Dynamics/CMakeLists.txt
+  b3CpuRigidBodyPipeline.cpp
+  b3FixedConstraint.cpp
+  b3Generic6DofConstraint.cpp
+  b3PgsJacobiSolver.cpp
+  b3Point2PointConstraint.cpp
+  b3TypedConstraint.cpp
+  Generating Code...
+  Bullet3Dynamics.vcxproj -> D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\build\lib\Debug\Bullet3Dynamics_Debug.lib

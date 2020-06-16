@@ -1,0 +1,12 @@
+﻿  Building Custom Rule D:/Development/Master/highfive/libh5/third_party/bullet3-2.88/src/BulletSoftBody/CMakeLists.txt
+  btSoftBody.cpp
+  btSoftBodyConcaveCollisionAlgorithm.cpp
+  btSoftBodyHelpers.cpp
+  btSoftBodyRigidBodyCollisionConfiguration.cpp
+  btSoftRigidCollisionAlgorithm.cpp
+  btSoftRigidDynamicsWorld.cpp
+  btSoftMultiBodyDynamicsWorld.cpp
+  btSoftSoftCollisionAlgorithm.cpp
+  btDefaultSoftBodySolver.cpp
+  Generating Code...
+  BulletSoftBody.vcxproj -> D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\build\lib\Release\BulletSoftBody.lib

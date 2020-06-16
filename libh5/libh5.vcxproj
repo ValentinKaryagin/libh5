@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E7562EEF-DB9C-48EE-8703-084972932B49}</ProjectGuid>
+    <RootNamespace>libh5</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)build\win64\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)intermediate\win64\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)build\win64\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)intermediate\win64\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\third_party\bullet3-2.88\src\;..\third_party\openssl-OpenSSL_1_1_1d\include;..\third_party\DirectXTex-aug2019\DirectXTex\;..\third_party\DirectXTK-aug2019\Inc\</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;LIBH5;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/ignore:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\third_party\bullet3-2.88\src\;..\third_party\openssl-OpenSSL_1_1_1d\include;..\third_party\DirectXTex-aug2019\DirectXTex\;..\third_party\DirectXTK-aug2019\Inc\</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;LIBH5;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/ignore:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="allocator.h" />
+    <ClInclude Include="allocator_pool.h" />
+    <ClInclude Include="application_interface.h" />
+    <ClInclude Include="audio_component.h" />
+    <ClInclude Include="btphysics_private.h" />
+    <ClInclude Include="collision_object_btphysics.h" />
+    <ClInclude Include="collision_shape_btphysics.h" />
+    <ClInclude Include="component.h" />
+    <ClInclude Include="cube_mesh.h" />
+    <ClInclude Include="draw_instanced_component.h" />
+    <ClInclude Include="event_windows.h" />
+    <ClInclude Include="frustum_culling.h" />
+    <ClInclude Include="input_interface.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="game_device_dinput.h" />
+    <ClInclude Include="static_mesh.h" />
+    <ClInclude Include="meshes.h" />
+    <ClInclude Include="physics_interface.h" />
+    <ClInclude Include="physics_world_btphysics.h" />
+    <ClInclude Include="plane200x200_mesh.h" />
+    <ClInclude Include="plane_mesh.h" />
+    <ClInclude Include="render_component.h" />
+    <ClInclude Include="render_interface.h" />
+    <ClInclude Include="rigid_body_btphysics.h" />
+    <ClInclude Include="byte_reader.h" />
+    <ClInclude Include="byte_writer.h" />
+    <ClInclude Include="suzanne_mesh.h" />
+    <ClInclude Include="thread_windows.h" />
+    <ClInclude Include="view_component.h" />
+    <ClInclude Include="cross_platform.h" />
+    <ClInclude Include="debug.h" />
+    <ClInclude Include="dinput_private.h" />
+    <ClInclude Include="dinput_public.h" />
+    <ClInclude Include="game_engine.h" />
+    <ClInclude Include="gameframework.h" />
+    <ClInclude Include="game_logic.h" />
+    <ClInclude Include="init.h" />
+    <ClInclude Include="guid_windows.h" />
+    <ClInclude Include="iocp.h" />
+    <ClInclude Include="iocp_server.h" />
+    <ClInclude Include="keyboard_keys_dinput.h" />
+    <ClInclude Include="lock_guard.h" />
+    <ClInclude Include="math_public.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="object.h" />
+    <ClInclude Include="openssl.h" />
+    <ClInclude Include="openssl_private.h" />
+    <ClInclude Include="openssl_public.h" />
+    <ClInclude Include="physics_component.h" />
+    <ClInclude Include="platform.h" />
+    <ClInclude Include="btphysics.h" />
+    <ClInclude Include="btphysics_public.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="commons.h" />
+    <ClInclude Include="d3d11.h" />
+    <ClInclude Include="d3d11_public.h" />
+    <ClInclude Include="dinput.h" />
+    <ClInclude Include="h5.h" />
+    <ClInclude Include="render_buffer_d3d11.h" />
+    <ClInclude Include="mutex_windows.h" />
+    <ClInclude Include="input_device_dinput.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="keyboard_device_dinput.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="matrix.h" />
+    <ClInclude Include="mouse_device_dinput.h" />
+    <ClInclude Include="physics.h" />
+    <ClInclude Include="pixel_shader_d3d11.h" />
+    <ClInclude Include="draw_component.h" />
+    <ClInclude Include="quat.h" />
+    <ClInclude Include="render.h" />
+    <ClInclude Include="render_device_d3d11.h" />
+    <ClInclude Include="crypto.h" />
+    <ClInclude Include="res.h" />
+    <ClInclude Include="rsa_openssl.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="transform_component.h" />
+    <ClInclude Include="shader_res_d3d11.h" />
+    <ClInclude Include="socket_ws2.h" />
+    <ClInclude Include="sprite_font_d3d11.h" />
+    <ClInclude Include="std.h" />
+    <ClInclude Include="steam_api.h" />
+    <ClInclude Include="stream_vector.h" />
+    <ClInclude Include="subsystems.h" />
+    <ClInclude Include="texture2d_d3d11.h" />
+    <ClInclude Include="unicode.h" />
+    <ClInclude Include="vector2.h" />
+    <ClInclude Include="vector3.h" />
+    <ClInclude Include="vector4.h" />
+    <ClInclude Include="vertex.h" />
+    <ClInclude Include="vertex_shader_d3d11.h" />
+    <ClInclude Include="windows_platform.h" />
+    <ClInclude Include="windows_public.h" />
+    <ClInclude Include="application_window_windows.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application_interface.cpp" />
+    <ClCompile Include="audio_component.cpp" />
+    <ClCompile Include="collision_object_btphysics.cpp" />
+    <ClCompile Include="collision_shape_btphysics.cpp" />
+    <ClCompile Include="component.cpp" />
+    <ClCompile Include="cube_mesh.cpp" />
+    <ClCompile Include="draw_instanced_component.cpp" />
+    <ClCompile Include="event_windows.cpp" />
+    <ClCompile Include="frustum_culling.cpp" />
+    <ClCompile Include="input_interface.cpp" />
+    <ClCompile Include="game_device_dinput.cpp" />
+    <ClCompile Include="static_mesh.cpp" />
+    <ClCompile Include="physics_interface.cpp" />
+    <ClCompile Include="physics_world_btphysics.cpp" />
+    <ClCompile Include="plane200x200_mesh.cpp" />
+    <ClCompile Include="plane_mesh.cpp" />
+    <ClCompile Include="render_component.cpp" />
+    <ClCompile Include="render_interface.cpp" />
+    <ClCompile Include="rigid_body_btphysics.cpp" />
+    <ClCompile Include="byte_reader.cpp" />
+    <ClCompile Include="byte_writer.cpp" />
+    <ClCompile Include="suzanne_mesh.cpp" />
+    <ClCompile Include="thread_windows.cpp" />
+    <ClCompile Include="view_component.cpp" />
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="render_buffer_d3d11.cpp" />
+    <ClCompile Include="d3d11_private.h" />
+    <ClCompile Include="debug.cpp" />
+    <ClCompile Include="game_engine.cpp" />
+    <ClCompile Include="game_logic.cpp" />
+    <ClCompile Include="guid_windows.cpp" />
+    <ClCompile Include="input_device_dinput.cpp" />
+    <ClCompile Include="iocp.cpp" />
+    <ClCompile Include="iocp_server.cpp" />
+    <ClCompile Include="keyboard_device_dinput.cpp" />
+    <ClCompile Include="math.cpp" />
+    <ClCompile Include="mouse_device_dinput.cpp" />
+    <ClCompile Include="mutex_windows.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="physics_component.cpp" />
+    <ClCompile Include="pixel_shader_d3d11.cpp" />
+    <ClCompile Include="platform.cpp" />
+    <ClCompile Include="draw_component.cpp" />
+    <ClCompile Include="render_device_d3d11.cpp" />
+    <ClCompile Include="rsa_openssl.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="transform_component.cpp" />
+    <ClCompile Include="shader_res_d3d11.cpp" />
+    <ClCompile Include="socket_ws2.cpp" />
+    <ClCompile Include="sprite_font_d3d11.cpp" />
+    <ClCompile Include="steam_api.cpp" />
+    <ClCompile Include="stream_vector.cpp" />
+    <ClCompile Include="texture2d_d3d11.cpp" />
+    <ClCompile Include="vertex_shader_d3d11.cpp" />
+    <ClCompile Include="application_window_windows.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="vs_draw.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="vs_draw_instanced.hlsl">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

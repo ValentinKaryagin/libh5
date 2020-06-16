@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btAlignedAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btConvexHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btConvexHullComputer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btGeometryUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btPolarDecomposition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btQuickprof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btSerializer64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btThreads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btVector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\TaskScheduler\btTaskScheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\TaskScheduler\btThreadSupportPosix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\TaskScheduler\btThreadSupportWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btAabbUtil2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btAlignedAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btAlignedObjectArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btConvexHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btConvexHullComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btDefaultMotionState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btGeometryUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btGrahamScan2dConvexHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btHashMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btIDebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btMatrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btMinMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btMotionState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btPolarDecomposition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btPoolAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btQuadWord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btQuaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btQuickprof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btScalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btStackAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btThreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btTransformUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\btVector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\TaskScheduler\btThreadSupportInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\LinearMath\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8C48FEDD-FD27-3883-BD1F-4B25B78CEF1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4D0E477-FB5D-3D80-A755-BFCEB411AF05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

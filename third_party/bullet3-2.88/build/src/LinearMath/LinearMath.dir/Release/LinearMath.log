@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/Development/Master/highfive/libh5/third_party/bullet3-2.88/src/LinearMath/CMakeLists.txt
+  btAlignedAllocator.cpp
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+  btPolarDecomposition.cpp
+  btQuickprof.cpp
+  btSerializer.cpp
+  btSerializer64.cpp
+  btThreads.cpp
+  btVector3.cpp
+  btTaskScheduler.cpp
+  btThreadSupportPosix.cpp
+  btThreadSupportWin32.cpp
+  Generating Code...
+  LinearMath.vcxproj -> D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\build\lib\Release\LinearMath.lib

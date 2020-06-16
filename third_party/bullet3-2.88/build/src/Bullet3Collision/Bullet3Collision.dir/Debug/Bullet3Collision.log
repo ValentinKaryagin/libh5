@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/Development/Master/highfive/libh5/third_party/bullet3-2.88/src/Bullet3Collision/CMakeLists.txt
+  b3DynamicBvh.cpp
+  b3DynamicBvhBroadphase.cpp
+  b3OverlappingPairCache.cpp
+  b3ConvexUtility.cpp
+  b3CpuNarrowPhase.cpp
+  Generating Code...
+  Bullet3Collision.vcxproj -> D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\build\lib\Debug\Bullet3Collision_Debug.lib

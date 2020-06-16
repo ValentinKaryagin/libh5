@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Development/Master/highfive/libh5/third_party/bullet3-2.88/src/Bullet3Geometry/CMakeLists.txt
+  b3ConvexHullComputer.cpp
+  b3GeometryUtil.cpp
+  Generating Code...
+  Bullet3Geometry.vcxproj -> D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\build\lib\Release\Bullet3Geometry.lib

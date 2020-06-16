@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodyHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftRigidDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftMultiBodyDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btDefaultSoftBodySolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodyData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodyHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftRigidDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftMultiBodyDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSparseSDF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodySolvers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btDefaultSoftBodySolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\btSoftBodySolverVertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\src\BulletSoftBody\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8C48FEDD-FD27-3883-BD1F-4B25B78CEF1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4D0E477-FB5D-3D80-A755-BFCEB411AF05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

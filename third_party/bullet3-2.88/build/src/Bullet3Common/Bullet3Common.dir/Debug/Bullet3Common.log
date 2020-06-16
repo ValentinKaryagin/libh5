@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Development/Master/highfive/libh5/third_party/bullet3-2.88/src/Bullet3Common/CMakeLists.txt
+  b3AlignedAllocator.cpp
+  b3Vector3.cpp
+  b3Logging.cpp
+  Generating Code...
+  Bullet3Common.vcxproj -> D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\build\lib\Debug\Bullet3Common_Debug.lib

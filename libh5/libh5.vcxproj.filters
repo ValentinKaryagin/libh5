@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="h5.h" />
+    <ClInclude Include="matrix.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="quat.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d11.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="dinput.h">
+      <Filter>input\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="physics.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="btphysics.h">
+      <Filter>physics\btphysics</Filter>
+    </ClInclude>
+    <ClInclude Include="input_device_dinput.h">
+      <Filter>input\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex_windows.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="lock_guard.h">
+      <Filter>platform\cross</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa_openssl.h">
+      <Filter>crypto\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl_private.h">
+      <Filter>crypto\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl_public.h">
+      <Filter>crypto\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="dinput_public.h">
+      <Filter>input\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_public.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d11_public.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="math_public.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="btphysics_public.h">
+      <Filter>physics\btphysics</Filter>
+    </ClInclude>
+    <ClInclude Include="btphysics_private.h">
+      <Filter>physics\btphysics</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl.h">
+      <Filter>crypto\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_platform.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="cross_platform.h">
+      <Filter>platform\cross</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_ws2.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="guid_windows.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="commons.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="std.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="res.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_vector.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="iocp.h">
+      <Filter>platform\windows\iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="iocp_server.h">
+      <Filter>platform\windows\iocp\server</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="byte_reader.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="byte_writer.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="unicode.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="subsystems.h">
+      <Filter>subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="steam_api.h">
+      <Filter>subsystems\steam_api</Filter>
+    </ClInclude>
+    <ClInclude Include="init.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>gameframework</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>gameframework</Filter>
+    </ClInclude>
+    <ClInclude Include="gameframework.h">
+      <Filter>gameframework</Filter>
+    </ClInclude>
+    <ClInclude Include="game_engine.h">
+      <Filter>gameframework</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic.h">
+      <Filter>gameframework</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse_device_dinput.h">
+      <Filter>input\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard_device_dinput.h">
+      <Filter>input\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="dinput_private.h">
+      <Filter>input\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard_keys_dinput.h">
+      <Filter>input\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="rigid_body_btphysics.h">
+      <Filter>physics\btphysics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_world_btphysics.h">
+      <Filter>physics\btphysics</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_font_d3d11.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_res_d3d11.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="pixel_shader_d3d11.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex_shader_d3d11.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="texture2d_d3d11.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render_device_d3d11.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="application_window_windows.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>gameframework\components</Filter>
+    </ClInclude>
+    <ClInclude Include="render_component.h">
+      <Filter>gameframework\components\transform_components\render_components</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_instanced_component.h">
+      <Filter>gameframework\components\transform_components\render_components</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_component.h">
+      <Filter>gameframework\components\transform_components\render_components</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_component.h">
+      <Filter>gameframework\components\transform_components\physics_components</Filter>
+    </ClInclude>
+    <ClInclude Include="view_component.h">
+      <Filter>gameframework\components\transform_components\render_components</Filter>
+    </ClInclude>
+    <ClInclude Include="transform_component.h">
+      <Filter>gameframework\components\transform_components</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_component.h">
+      <Filter>gameframework\components\transform_components\audio_components</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>gameframework\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_object_btphysics.h">
+      <Filter>physics\btphysics</Filter>
+    </ClInclude>
+    <ClInclude Include="application_interface.h">
+      <Filter>gameframework\interfaces\application</Filter>
+    </ClInclude>
+    <ClInclude Include="input_interface.h">
+      <Filter>gameframework\interfaces\input</Filter>
+    </ClInclude>
+    <ClInclude Include="render_interface.h">
+      <Filter>gameframework\interfaces\render</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_interface.h">
+      <Filter>gameframework\interfaces\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="frustum_culling.h">
+      <Filter>gameframework\interfaces\render\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator.h">
+      <Filter>gameframework\allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator_pool.h">
+      <Filter>gameframework\allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="game_device_dinput.h">
+      <Filter>input\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_windows.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="event_windows.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="cube_mesh.h">
+      <Filter>gameframework\meshes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="plane_mesh.h">
+      <Filter>gameframework\meshes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="plane200x200_mesh.h">
+      <Filter>gameframework\meshes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes.h">
+      <Filter>gameframework\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="suzanne_mesh.h">
+      <Filter>gameframework\meshes\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="static_mesh.h">
+      <Filter>gameframework\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="render_buffer_d3d11.h">
+      <Filter>render\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_shape_btphysics.h">
+      <Filter>physics\btphysics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input_device_dinput.cpp">
+      <Filter>input\dinput</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa_openssl.cpp">
+      <Filter>crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d11_private.h">
+      <Filter>render\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_ws2.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_vector.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="iocp.cpp">
+      <Filter>platform\windows\iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="iocp_server.cpp">
+      <Filter>platform\windows\iocp\server</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>commons</Filter>
+    </ClCompile>
+    <ClCompile Include="byte_reader.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="byte_writer.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="steam_api.cpp">
+      <Filter>subsystems\steam_api</Filter>
+    </ClCompile>
+    <ClCompile Include="guid_windows.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="platform.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>gameframework</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>gameframework</Filter>
+    </ClCompile>
+    <ClCompile Include="game_engine.cpp">
+      <Filter>gameframework</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic.cpp">
+      <Filter>gameframework</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_device_dinput.cpp">
+      <Filter>input\dinput</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard_device_dinput.cpp">
+      <Filter>input\dinput</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex_windows.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="rigid_body_btphysics.cpp">
+      <Filter>physics\btphysics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_world_btphysics.cpp">
+      <Filter>physics\btphysics</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_font_d3d11.cpp">
+      <Filter>render\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_res_d3d11.cpp">
+      <Filter>render\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="pixel_shader_d3d11.cpp">
+      <Filter>render\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex_shader_d3d11.cpp">
+      <Filter>render\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="texture2d_d3d11.cpp">
+      <Filter>render\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="render_device_d3d11.cpp">
+      <Filter>render\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="application_window_windows.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>gameframework\components</Filter>
+    </ClCompile>
+    <ClCompile Include="render_component.cpp">
+      <Filter>gameframework\components\transform_components\render_components</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_instanced_component.cpp">
+      <Filter>gameframework\components\transform_components\render_components</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_component.cpp">
+      <Filter>gameframework\components\transform_components\render_components</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_component.cpp">
+      <Filter>gameframework\components\transform_components\physics_components</Filter>
+    </ClCompile>
+    <ClCompile Include="view_component.cpp">
+      <Filter>gameframework\components\transform_components\render_components</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_component.cpp">
+      <Filter>gameframework\components\transform_components</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_component.cpp">
+      <Filter>gameframework\components\transform_components\audio_components</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_object_btphysics.cpp">
+      <Filter>physics\btphysics</Filter>
+    </ClCompile>
+    <ClCompile Include="application_interface.cpp">
+      <Filter>gameframework\interfaces\application</Filter>
+    </ClCompile>
+    <ClCompile Include="input_interface.cpp">
+      <Filter>gameframework\interfaces\input</Filter>
+    </ClCompile>
+    <ClCompile Include="render_interface.cpp">
+      <Filter>gameframework\interfaces\render</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_interface.cpp">
+      <Filter>gameframework\interfaces\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="frustum_culling.cpp">
+      <Filter>gameframework\interfaces\render\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="game_device_dinput.cpp">
+      <Filter>input\dinput</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_windows.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="event_windows.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="cube_mesh.cpp">
+      <Filter>gameframework\meshes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="plane_mesh.cpp">
+      <Filter>gameframework\meshes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="plane200x200_mesh.cpp">
+      <Filter>gameframework\meshes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="suzanne_mesh.cpp">
+      <Filter>gameframework\meshes\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="static_mesh.cpp">
+      <Filter>gameframework\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="render_buffer_d3d11.cpp">
+      <Filter>render\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_shape_btphysics.cpp">
+      <Filter>physics\btphysics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="math">
+      <UniqueIdentifier>{688f5dd8-ba1e-40b7-ab11-8bd41b57f9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{91e340bc-291d-429b-95f2-6a60e1e04a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{7bc4288e-0e6c-4256-bfa2-40773bf36a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commons">
+      <UniqueIdentifier>{f07f04c3-3aa8-431b-b13c-e7de0f62aaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics\btphysics">
+      <UniqueIdentifier>{56432520-0969-423f-bfd4-c8f0135cfc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\dinput">
+      <UniqueIdentifier>{a9a34c44-f8b1-4140-b196-7aa4b9fd0827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{26e99a85-699d-4b69-8985-1a4a91cb0e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\windows">
+      <UniqueIdentifier>{0e43c7d8-b197-46fa-bfef-bf92ac4365d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{e1742ddc-8034-4f4a-83a0-815adf876b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\cross">
+      <UniqueIdentifier>{1bede458-5c7f-48af-8917-8af21130278e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{ec3ad32c-a0b9-42c0-ad2f-f40e62545d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\openssl">
+      <UniqueIdentifier>{2634c5b1-9097-48b0-8eb9-98152884839c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\windows\iocp">
+      <UniqueIdentifier>{14afe56a-8811-48a4-9e37-bb9f24fe0e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\windows\iocp\server">
+      <UniqueIdentifier>{184e7c5e-b2fe-4a0a-93b8-e96d9f52322e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="subsystems">
+      <UniqueIdentifier>{8e496f1e-633f-4889-bf17-c70f9e69e937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="subsystems\steam_api">
+      <UniqueIdentifier>{992a3db8-7ed3-45d0-a29f-ff3e79f136cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework">
+      <UniqueIdentifier>{e490969d-8f66-4973-9f46-36128d5c146a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{b890a8aa-6674-41ad-8f27-292bf6ffeca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\d3d11">
+      <UniqueIdentifier>{b87051a4-51e9-4edb-b0d5-73b9aefe640f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\components">
+      <UniqueIdentifier>{56d54825-f00d-494f-975d-cd73d6463251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\interfaces">
+      <UniqueIdentifier>{7eed55e2-9cce-4e99-9cc5-b1345c7828f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\components\transform_components">
+      <UniqueIdentifier>{89669452-b91f-4b5d-8da4-54585e73fd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\components\transform_components\physics_components">
+      <UniqueIdentifier>{1d871f5a-1c47-435b-aa52-3f6e0c1c2816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\components\transform_components\render_components">
+      <UniqueIdentifier>{9b26946d-cee9-4828-94ff-28ab692ee2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\components\transform_components\audio_components">
+      <UniqueIdentifier>{456207d0-50b3-4d1f-934c-8d0d7acba054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\interfaces\application">
+      <UniqueIdentifier>{af756a11-4669-409f-a0e2-3a900b73fa0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\interfaces\input">
+      <UniqueIdentifier>{4eede318-2afc-49d6-ba46-4be83b136651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\interfaces\physics">
+      <UniqueIdentifier>{9441c0b2-90eb-44a9-8f37-6aa4bd78d3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\interfaces\render">
+      <UniqueIdentifier>{d88e1834-d22b-4c2d-a299-8de5d850944f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\interfaces\render\utils">
+      <UniqueIdentifier>{69068ed9-d247-45d5-b3dc-13c6e08459f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\interfaces\render\shaders">
+      <UniqueIdentifier>{fceb8483-493a-40fc-afe5-a1827893f078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\meshes">
+      <UniqueIdentifier>{c9f1ee8c-5ada-42b6-944b-43c1874e47e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\allocators">
+      <UniqueIdentifier>{def8ff59-bc5f-466d-85cc-ef211f7d400b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameframework\meshes\primitives">
+      <UniqueIdentifier>{e361c26f-c8fa-4fd9-9763-67f4577743d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ps.hlsl">
+      <Filter>gameframework\interfaces\render\shaders</Filter>
+    </None>
+    <None Include="vs_draw.hlsl">
+      <Filter>gameframework\interfaces\render\shaders</Filter>
+    </None>
+    <None Include="vs_draw_instanced.hlsl">
+      <Filter>gameframework\interfaces\render\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

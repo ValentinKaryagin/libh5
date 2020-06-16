@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Development\Master\highfive\libh5\third_party\bullet3-2.88\build\CMakeFiles\985367b54374b1f2af7c956e55d3f9bd\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A69453E4-B8AE-31EA-B901-26E86E085246}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
